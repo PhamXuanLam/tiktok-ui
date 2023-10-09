@@ -5,22 +5,22 @@ import styles from './Button.module.scss';
 const cx = classNames.bind(styles);
 
 function Button({
-                    to,
-                    href,
-                    primary = false,
-                    outline = false,
-                    text = false,
-                    rounded = false,
-                    disabled = false,
-                    small = false,
-                    large = false,
-                    children,
-                    className,
-                    leftIcon,
-                    rightIcon,
-                    onClick,
-                    ...passProps
-                }) {
+    to,
+    href,
+    primary = false,
+    outline = false,
+    text = false,
+    rounded = false,
+    disabled = false,
+    small = false,
+    large = false,
+    children,
+    className,
+    leftIcon,
+    rightIcon,
+    onClick,
+    ...passProps
+}) {
     let Comp = 'button';
     const props = {
         onClick,
